@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as classNames from 'classnames';
 import * as style from './style.css';
 import { TodoModel } from 'app/models';
-import { TodoActions } from 'app/actions';
+import { TodoActions } from 'app/flux/actions';
 import { TodoTextInput } from '../TodoTextInput';
 
 export namespace TodoItem {

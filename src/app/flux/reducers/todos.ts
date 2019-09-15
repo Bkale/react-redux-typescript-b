@@ -1,6 +1,6 @@
 import { handleActions } from 'redux-actions';
 import { RootState } from './state';
-import { TodoActions } from 'app/actions/todos';
+import { TodoActions } from 'app/flux/actions/todos';
 import { TodoModel } from 'app/models';
 
 const initialState: RootState.TodoState = [
