@@ -19,8 +19,8 @@ export function configureStore(initialState?: RootState): Store<RootState> {
       const nextReducer = require('app/flux/reducers');
       store.replaceReducer(nextReducer);
     });
-    
+  
   }
-
+//Hello
   return store;
 }
